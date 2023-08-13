@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "@mcevert/evert-utility",
+  "version": "0.0.0",
+  "description": "A collection of utility packages.",
+  "keywords": [
+    "mcevert",
+    "utility",
+    "npm",
+    "node",
+    "packages",
+    "modules",
+    "microservices",
+    "services",
+    "internal-packages",
+    "internal",
+    "evert"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcevert/evert-utility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcevert/evert-utility/issues"
+  },
+  "author": "HalloSouf",
+  "workspaces": [
+    "./packages/*"
+  ]
+}
