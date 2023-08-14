@@ -1,6 +1,6 @@
 {
   "name": "@mcevert/service-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An API logger for McEvert microservices.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -16,6 +16,7 @@
     "build": "tsc --build",
     "lint": "prettier --check . && eslint .",
     "format": "prettier . --write .",
+    "prepublish": "yarn build",
     "publish": "yarn build"
   },
   "keywords": [
